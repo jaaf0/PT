@@ -1,0 +1,7 @@
+# Never commit real engagement secrets or loot
+loot/
+**/loot/
+*.kdbx
+*_secrets*
+*.ccache
+*.kirbi
