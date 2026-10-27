@@ -45,6 +45,7 @@ and wasted risk budget.
 | 08 | [08-windows-enum.md](playbook/08-windows-enum.md) | Windows host enumeration |
 | 09 | [09-linux-enum.md](playbook/09-linux-enum.md) | Linux host enumeration |
 | 10 | [10-web-app.md](playbook/10-web-app.md) | Web application testing |
+| 10b | [OWASP-TOP10.md](playbook/OWASP-TOP10.md) | OWASP Top 10 (2021) ERP web guide |
 | 11 | [11-api.md](playbook/11-api.md) | API testing |
 | 12 | [12-dns.md](playbook/12-dns.md) | DNS |
 | 13 | [13-ssh.md](playbook/13-ssh.md) | SSH |

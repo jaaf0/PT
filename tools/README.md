@@ -27,6 +27,7 @@ nano scope/targets.local            # add your real in-scope hosts: NAME<space>I
 | `03-enum.sh` | version + safe-script fingerprint; classifies stack | SAFE→light CONTROLLED |
 | `04-sap-enum.sh` | SAP-aware read-only enum (ICM/ICF, sapctrl, ACL reachability) | SAFE |
 | `05-web.sh` | web fingerprint + safe nuclei/httpx/whatweb/testssl | SAFE→CONTROLLED |
+| `10-owasp.sh` | OWASP Top 10 (2021) web checks + manual checklist | SAFE→CONTROLLED |
 | `run-safe-recon.sh` | runs 01→05 in order | SAFE→light CONTROLLED |
 | `06-vulnscan.sh` | nmap safe-vuln scripts (no brute/dos) | CONTROLLED (gated) |
 | `07-creds.sh` | `validate` known cred / `crack` offline / `spray` (gated) | CONTROLLED / GATED |
