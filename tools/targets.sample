@@ -1,0 +1,8 @@
+# Copy this to scope/targets.local (git-ignored) on your tester host and fill in
+# the REAL in-scope hosts. Format: NAME<space>IP  (comments with # allowed).
+# Keep this file OFF the cloud/repo — scope/targets.local is in .gitignore.
+#
+# EXAMPLE (replace with your authorized targets):
+# ERPNODE01   10.0.0.11
+# ERPNODE02   10.0.0.12
+# ERPTEST01   10.0.0.16

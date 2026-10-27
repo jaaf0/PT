@@ -1,7 +1,20 @@
-# Never commit real engagement secrets or loot
+# Never commit real engagement secrets, targets, or output
 loot/
 **/loot/
 *.kdbx
 *_secrets*
 *.ccache
 *.kirbi
+
+# Real target lists (keep IPs/hostnames out of the repo/cloud)
+scope/targets.local
+**/targets.local
+scope/targets.txt
+**/scope/targets.txt
+
+# All engagement working output (scans contain IPs)
+engagement/
+erp-recon-*/
+*.nmap
+*.gnmap
+*.xml
